@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Begin"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmeyizfMExr9KQhtTeuAdjosimB5jPDSRZZrHkk7PNgYE7/01.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmbWwVx7w6ah1u3Usqd2VYcJSKkns5wFZsMFncerduwV1K/image1.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=2`,
 });
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Ascension Ships',
     description: 'A frame showcasing ships coming to Ascension soon',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmeyizfMExr9KQhtTeuAdjosimB5jPDSRZZrHkk7PNgYE7/01.png`],
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmbWwVx7w6ah1u3Usqd2VYcJSKkns5wFZsMFncerduwV1K/image1.png`],
   },
   other: {
     ...frameMetadata,
