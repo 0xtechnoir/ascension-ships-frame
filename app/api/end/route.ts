@@ -7,8 +7,6 @@ export async function POST(req: NextRequest): Promise<Response> {
 
   let path: string;
   if (buttonId === 1) {
-    path = "playgame";
-  } else if (buttonId === 2) {
     path = "blogpost";
   } else {
     path = "";
